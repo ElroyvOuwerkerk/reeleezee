@@ -1,0 +1,25 @@
+<!-- Measuring purchases -->
+<!-- Should be set before the Google Tag Manager Script Tag on the Thank you page-->
+<script>
+    dataLayer.push({
+    'ecommerce': {
+      'purchase': {
+        'actionField': {
+          'id': '{transactionId}',       // Transaction ID. Use the timestamp (seconds). Example: 1498070173
+          'affiliation': 'Reeleezee',
+          'revenue': 124.00,             // Total transaction value (incl. tax and shipping)
+          'tax':21.00,                   // Total tax value            
+          'shipping': 3.00               // Total shipping costs
+        },
+        'products': [{
+          'name': '{product name}',   //Example: Factuur Economy
+          'id': '{product id}',       //Example: 9789085067214
+          'price': 100.00,            //Example: 32.50 (excluding taxes)
+          'brand': 'Reeleezee',       
+          'category': '{modules}',    //Example: Factuur, Administratie, Uren, Cashr
+          'quantity': 1
+        }]
+      }
+    }
+  });
+</script>

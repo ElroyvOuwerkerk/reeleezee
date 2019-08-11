@@ -1,0 +1,8 @@
+<!-- These dataLayer variables should be set whenever possible -->
+<!-- DataLayer to be placed above the Google Tag Manager Script tag in the <head>-->
+<script>
+    dataLayer = [{
+    'userid': '{userid}',                     //The id from the user (when logged in)
+    'statusCode' : '{pageStatusCode}',        //The statusCode of the page requested (Ex. 404, 200, etc..)
+    }];
+</script>
