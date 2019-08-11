@@ -14,7 +14,15 @@
         'products': [{
           'name': '{product name}',   //Example: Factuur Economy
           'id': '{product id}',       //Example: 9789085067214
-          'price': 100.00,            //Example: 32.50 (excluding taxes)
+          'price': 50.00,            //Example: 32.50 (excluding taxes)
+          'brand': 'Reeleezee',       
+          'category': '{modules}',    //Example: Factuur, Administratie, Uren, Cashr
+          'quantity': 1
+        },
+        {
+          'name': '{product name}',   //Example: Administratie Basic
+          'id': '{product id}',       //Example: 9789085067215
+          'price': 50.00,            //Example: 32.50 (excluding taxes)
           'brand': 'Reeleezee',       
           'category': '{modules}',    //Example: Factuur, Administratie, Uren, Cashr
           'quantity': 1
