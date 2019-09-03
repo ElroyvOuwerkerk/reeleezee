@@ -1,0 +1,6 @@
+<script>
+    dataLayer.push({
+        'event' : 'userIdLoaded',
+        'userid': '{userid}'                     //The id from the user (when logged in)
+    });
+</script>
